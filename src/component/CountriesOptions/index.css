@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px 8px;
+  border-bottom: 1px solid #334155;
+}
+
+.country-name {
+  color: #f1f5f9;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .country-name {
+    font-size: 16px;
+  }
+}
+
+.visit-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 70px;
+  padding: 7px 0px;
+  border-width: 0px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .visit-btn {
+    font-size: 16px;
+  }
+}
+
+.text {
+  color: #cbd5e1;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+}

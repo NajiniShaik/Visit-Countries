@@ -1,0 +1,52 @@
+.visited-country-card {
+  width: 100%;
+  background-color: #1f1f2f;
+}
+
+@media (min-width: 576px) {
+  .visited-country-card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .visited-country-card {
+    width: 32%;
+  }
+}
+
+.country-flag {
+  width: 100%;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  .country-flag {
+    height: 200px;
+  }
+}
+
+.container {
+  margin-top: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  background-color: transparent;
+  color: #ffffff;
+  width: 80px;
+  padding: 10px 0px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .remove-btn {
+    font-size: 16px;
+  }
+}
